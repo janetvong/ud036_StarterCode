@@ -4,9 +4,9 @@ import webbrowser
 class Movie():
     """ This is a class for defining the blueprint of Movie objects. """
 
-    valid_ratings = ["G", "PG", "PG-13", "R"]
+     
+    valid_ratings = ["G", "PG", "PG-13", "R"] # global attributes of Movie class
 
-    # intializes title, storyline, poster image, and trailer.
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         """Initializes class and defines variables with incoming parameter values"""
         self.title = movie_title
